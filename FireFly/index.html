@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top"> <a href="#"
+            class="navbar-brand">BRANDNAME</a> <button class="navbar-toggler" data-toggle="collapse"
+            data-target="#navLinks"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"> <a href="" class="nav-link">HOME</a> </li>
+                <li class="nav-item"> <a href="" class="nav-link">ABOUT</a> </li>
+                <li class="nav-item"> <a href="" class="nav-link">SERVICES</a> </li>
+                <li class="nav-item"> <a href="" class="nav-link">CONTACTS</a> </li>
+        </div>
+    </nav>
+    <header>
+        <div id="indicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#indicators" data-slide-to="0" class="active"></li>
+                <li data-target="#indicators" data-slide-to="1"></li>
+                <li data-target="#indicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active"
+                    style="background-image: url('https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">Image one</h3>
+                        <p class="lead">Some description about the first slide</p>
+                    </div>
+                </div> <!-- Slide Two - Set the background image for this slide in the line below -->
+                <div class="carousel-item"
+                    style="background-image: url('https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">Image two</h3>
+                        <p class="lead">Some description about the second slide</p>
+                    </div>
+                </div> <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item"
+                    style="background-image: url('https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">Image three</h3>
+                        <p class="lead">Some description about the third slide</p>
+                    </div>
+                </div>
+            </div> <a class="carousel-control-prev" href="#indicators" role="button" data-slide="prev"> <span
+                    class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+            <a class="carousel-control-next" href="#indicators" role="button" data-slide="next"> <span
+                    class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+        </div>
+    </header>
+    <!-- Page Content -->
+    <section class="py-5">
+        <div class="container-fluid mb-5">
+            <div class="text-center mt-5">
+                <h1>Our Services</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box">
+                        <div class="our-services settings">
+                            <div class="icon"> <div class="img-icon"><img src="img/icon/technical-support.svg"></div> </div>
+                            <h4>Settings</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <div class="our-services speedup">
+                            <div class="icon"> <img src="https://i.imgur.com/KMbnpFF.png"> </div>
+                            <h4>Speedup</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <div class="our-services privacy">
+                            <div class="icon"> <img src="https://i.imgur.com/AgyneKA.png"> </div>
+                            <h4>Privacy</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box">
+                        <div class="our-services backups">
+                            <div class="icon"> <img src="https://i.imgur.com/vdH9LKi.png"> </div>
+                            <h4>Backups</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <div class="our-services ssl">
+                            <div class="icon"> <img src="https://i.imgur.com/v6OnUqu.png"> </div>
+                            <h4>SSL secured</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <div class="our-services database">
+                            <div class="icon"> <img src="https://i.imgur.com/VzjZw9M.png"> </div>
+                            <h4>Database</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+</html>
